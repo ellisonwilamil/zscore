@@ -1,0 +1,321 @@
+{
+  "name": "AQTechAnalyticsFlow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 12,
+              "triggerAtMinute": 17
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -384,
+        -48
+      ],
+      "id": "7807d924-b723-4c96-9f89-12b40ab69560",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "command": "docker exec dashboard-container python3 /app/src/detect_anomalies_cli.py"
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        464,
+        -48
+      ],
+      "id": "d3d9ad49-a938-4608-bda7-2267c4e77f41",
+      "name": "Execute a command",
+      "credentials": {
+        "sshPassword": {
+          "id": "Co9kymqUoKfg8Cly",
+          "name": "SSH Password account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "command": "docker exec dashboard-container python3 /app/src/aqt_zscore_calculator_cli.py"
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        896,
+        -48
+      ],
+      "id": "3bf5c891-8d7a-4c87-92ff-1d4b00d0554d",
+      "name": "Execute a command1",
+      "credentials": {
+        "sshPassword": {
+          "id": "Co9kymqUoKfg8Cly",
+          "name": "SSH Password account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "command": "docker exec dashboard-container python3 /app/src/frequency_zscore_calculator_cli.py"
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        48,
+        -48
+      ],
+      "id": "8c9ce056-c8f8-45d7-a243-4b8716bbaae2",
+      "name": "Execute a command2",
+      "credentials": {
+        "sshPassword": {
+          "id": "Co9kymqUoKfg8Cly",
+          "name": "SSH Password account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        -160,
+        -288
+      ],
+      "id": "4a4bfe40-7341-430b-b812-2bd93caa5ec8",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        -320
+      ],
+      "id": "002a1066-1db4-4093-8fbe-48a56464a90f",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "chatId": "5305735219",
+        "text": "Deu certo",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        48,
+        -288
+      ],
+      "id": "340e73ec-2a76-467a-96dc-704e1f172af0",
+      "name": "Send a text message",
+      "webhookId": "404f7135-607e-41ea-8d1e-09985c637a1d",
+      "credentials": {
+        "telegramApi": {
+          "id": "8lKqsZUIXDzWMpo5",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "5305735219",
+        "text": "Iniciando fluxo!  Iniciando com Zscore de Frequências. ",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        -176,
+        -48
+      ],
+      "id": "e7ff1139-6a9d-4f14-b21a-f167bcd4b375",
+      "name": "Send a text message1",
+      "webhookId": "fe6ff105-1c46-4a09-a1e4-80e68d62a8d9",
+      "credentials": {
+        "telegramApi": {
+          "id": "8lKqsZUIXDzWMpo5",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "5305735219",
+        "text": "Iniciado o processo de Detecção de Anomalias",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        256,
+        -48
+      ],
+      "id": "6652e0b7-304b-4279-b503-ac309728c308",
+      "name": "Send a text message2",
+      "webhookId": "fde404f6-0d52-4a93-9088-3ad35c0e8680",
+      "credentials": {
+        "telegramApi": {
+          "id": "8lKqsZUIXDzWMpo5",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "5305735219",
+        "text": "Iniciando processo de cálculo de Zscore de tendências Brutas",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        672,
+        -48
+      ],
+      "id": "836277c0-7e74-43c3-8711-ef39bb63b479",
+      "name": "Send a text message3",
+      "webhookId": "da1a17e5-f883-4961-bcc8-0ac6e5f56291",
+      "credentials": {
+        "telegramApi": {
+          "id": "8lKqsZUIXDzWMpo5",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "5305735219",
+        "text": "Fim de Processo! ",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1104,
+        -48
+      ],
+      "id": "8400b6ea-4ccb-4174-a14f-eb1ec6cf3c78",
+      "name": "Send a text message4",
+      "webhookId": "2639001b-4ac1-4359-94c7-059e84b2ff5f",
+      "credentials": {
+        "telegramApi": {
+          "id": "8lKqsZUIXDzWMpo5",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send a text message1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a command": {
+      "main": [
+        [
+          {
+            "node": "Send a text message3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a command1": {
+      "main": [
+        [
+          {
+            "node": "Send a text message4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a command2": {
+      "main": [
+        [
+          {
+            "node": "Send a text message2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message1": {
+      "main": [
+        [
+          {
+            "node": "Execute a command2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message2": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message3": {
+      "main": [
+        [
+          {
+            "node": "Execute a command1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false,
+    "timeSavedMode": "fixed",
+    "timezone": "America/Sao_Paulo",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "83c031bc-47a9-4a0a-9add-c0b5d7fce3ef",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "898fa274964c65cfdff1891bafb1bb12b50cf82615a3aa51f55e568a66d62583"
+  },
+  "id": "L4mP4eZn0AiYFVJp",
+  "tags": []
+}

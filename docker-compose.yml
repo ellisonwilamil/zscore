@@ -1,0 +1,23 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n-local
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - TZ=America/Sao_Paulo
+      - N8N_ENCRYPTION_KEY=${N8N_KEY:-dev_key}
+    volumes:
+      - n8n_data_local:/home/node/.n8n
+      # IMPORTANTE: Acesso ao socket para que o n8n possa mandar comandos para a VM host
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - analytics-network
+
+networks:
+  analytics-network:
+    driver: bridge
+
+volumes:
+  n8n_data_local:

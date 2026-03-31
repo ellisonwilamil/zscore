@@ -1,0 +1,97 @@
+{
+  "name": "AQTechAnalyticsFlow_byZScorePopulation_BruteTrends",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "by_zscore_brute_trends",
+        "responseMode": "=responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "022af677-8058-4c07-98dc-781db1d95399",
+      "name": "Webhook",
+      "webhookId": "7c28ea06-e0cd-46eb-8945-024c39376fe4"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\n  \"status\": \"recebido\",\n  \"msg\": \"Comando enviado com sucesso ao servidor\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        208,
+        0
+      ],
+      "id": "097a37f0-623c-4059-bd4f-1e8e169b718a",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "command": "=docker exec -w /app/src dashboard-container /bin/bash -c \"nohup ./popula_dados_zscore_brutas.sh --data-inicial {{ $json.body.start_date }} --data-final {{ $json.body.end_date }} > /dev/null 2>&1 &\""
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "50e16d0c-26c2-4c5b-9dc6-ef99fb5f62ff",
+      "name": "Execute a command",
+      "credentials": {
+        "sshPassword": {
+          "id": "Co9kymqUoKfg8Cly",
+          "name": "SSH Password account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false,
+    "timeSavedMode": "fixed",
+    "timezone": "America/Sao_Paulo",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "68add2d8-7a62-4577-8c7d-a6ede7387c95",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "898fa274964c65cfdff1891bafb1bb12b50cf82615a3aa51f55e568a66d62583"
+  },
+  "id": "hogq5PBqgiOVQnKn",
+  "tags": []
+}

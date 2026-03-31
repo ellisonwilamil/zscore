@@ -1,0 +1,94 @@
+{
+  "name": "AQTechAnalyticsFlow_byAnomaliesPopulation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "by_anomalies_populate",
+        "responseMode": "=responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a5de6f32-3f86-4d02-b31c-3dc3d0a158e8",
+      "name": "Webhook",
+      "webhookId": "7c9f13dd-6622-4ad1-946a-f6ae71c9ed6f"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\n  \"status\": \"recebido\",\n  \"msg\": \"Comando enviado com sucesso ao servidor\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        208,
+        0
+      ],
+      "id": "fff18b49-2329-479e-ab32-e6e56202d24e",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "command": "=docker exec -w /app/src dashboard-container /bin/bash -c \"nohup ./popula_dados_anomalias.sh --data-inicial {{ $json.body.start_date }} --data-final {{ $json.body.end_date }} > /dev/null 2>&1 &\""
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "3ef79d0f-f77b-4107-8796-ba5c9896815d",
+      "name": "Execute a command",
+      "credentials": {
+        "sshPassword": {
+          "id": "k54qwhk0hcDP7cLN",
+          "name": "SSH Password account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "596f6623-99a1-49b8-8709-8339f1f8ec5b",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "898fa274964c65cfdff1891bafb1bb12b50cf82615a3aa51f55e568a66d62583"
+  },
+  "id": "7dVh4RHqmw6bWWmM",
+  "tags": []
+}

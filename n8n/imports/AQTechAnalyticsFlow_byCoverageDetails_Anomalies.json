@@ -1,0 +1,94 @@
+{
+  "name": "AQTechAnalyticsFlow_byCoverageDetails_Anomalies",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "by_coverage_details_anomaly",
+        "responseMode": "=responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -448,
+        -112
+      ],
+      "id": "d53373a3-86d5-49ca-a8a1-8380d6d3edd7",
+      "name": "Webhook",
+      "webhookId": "95e3f795-775e-4982-94f0-6b93ce660c43"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\n  \"status\": \"recebido\",\n  \"msg\": \"Comando enviado com sucesso ao servidor\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        -240,
+        -112
+      ],
+      "id": "a9664830-1262-4af8-82e8-c7fac07340a7",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "command": "=docker exec dashboard-container python3 src/detect_anomalies_cli.py --data {{ $json.body.target_date }}"
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        -32,
+        -112
+      ],
+      "id": "f9846df6-a7c1-4107-9120-7a4311308818",
+      "name": "Execute a command",
+      "credentials": {
+        "sshPassword": {
+          "id": "Co9kymqUoKfg8Cly",
+          "name": "SSH Password account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "47b00831-45f6-43c4-810b-bf8fc49317bc",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "898fa274964c65cfdff1891bafb1bb12b50cf82615a3aa51f55e568a66d62583"
+  },
+  "id": "diLHPpN2oWRQUGUz",
+  "tags": []
+}

@@ -1,0 +1,689 @@
+{
+  "grupos_tendencias": [
+    {
+      "id": 1,
+      "nome": "Eletrica gerador - EA01_VGDW",
+      "categoria": "Eletrica gerador",
+      "tendencias": [
+        "EA01_VGDW_120Hz_ElecFail_1x_Envelope_g",
+        "EA01_VGDW_120Hz_ElecFail_1x_Raw_g",
+        "EA01_VGDW_120Hz_ElecFail_1x_Raw_mms",
+        "EA01_VGDW_120Hz_ElecFail_2x_Envelope_g",
+        "EA01_VGDW_120Hz_ElecFail_2x_Raw_g",
+        "EA01_VGDW_120Hz_ElecFail_2x_Raw_mms",
+        "EA01_VGDW_120Hz_ElecFail_3x_Envelope_g",
+        "EA01_VGDW_120Hz_ElecFail_3x_Raw_g",
+        "EA01_VGDW_120Hz_ElecFail_3x_Raw_mms",
+        "EA01_VGDW_GenFreq_ElecFail_1x_Envelope_g",
+        "EA01_VGDW_GenFreq_ElecFail_1x_Raw_g",
+        "EA01_VGDW_GenFreq_ElecFail_1x_Raw_mms",
+        "EA01_VGDW_GenFreq_ElecFail_2x_Envelope_g",
+        "EA01_VGDW_GenFreq_ElecFail_2x_Raw_g",
+        "EA01_VGDW_GenFreq_ElecFail_2x_Raw_mms",
+        "EA01_VGDW_GenFreq_ElecFail_3x_Envelope_g",
+        "EA01_VGDW_GenFreq_ElecFail_3x_Raw_g",
+        "EA01_VGDW_GenFreq_ElecFail_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Eixo gerador - EA01_VGDW",
+      "categoria": "Eixo gerador",
+      "tendencias": [
+        "EA01_VGDW_GenShaft_1x_Raw_g",
+        "EA01_VGDW_GenShaft_1x_Raw_mms",
+        "EA01_VGDW_GenShaft_2x_Raw_g",
+        "EA01_VGDW_GenShaft_2x_Raw_mms",
+        "EA01_VGDW_GenShaft_3x_Raw_g",
+        "EA01_VGDW_GenShaft_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Rolamento gerador - EA01_VGDW",
+      "categoria": "Rolamento gerador",
+      "tendencias": [
+        "EA01_VGDW_Gen_DW_BPFI_Envelope_g",
+        "EA01_VGDW_Gen_DW_BPFI_Raw_g",
+        "EA01_VGDW_Gen_DW_BPFO_Envelope_g",
+        "EA01_VGDW_Gen_DW_BPFO_Raw_g",
+        "EA01_VGDW_Gen_DW_BSF_Envelope_g",
+        "EA01_VGDW_Gen_DW_BSF_Raw_g",
+        "EA01_VGDW_Gen_DW_FTF_Envelope_g",
+        "EA01_VGDW_Gen_DW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Eletrica gerador - EA02_VGUW",
+      "categoria": "Eletrica gerador",
+      "tendencias": [
+        "EA02_VGUW_120Hz_ElecFail_1x_Envelope_g",
+        "EA02_VGUW_120Hz_ElecFail_1x_Raw_g",
+        "EA02_VGUW_120Hz_ElecFail_1x_Raw_mms",
+        "EA02_VGUW_120Hz_ElecFail_2x_Envelope_g",
+        "EA02_VGUW_120Hz_ElecFail_2x_Raw_g",
+        "EA02_VGUW_120Hz_ElecFail_2x_Raw_mms",
+        "EA02_VGUW_120Hz_ElecFail_3x_Envelope_g",
+        "EA02_VGUW_120Hz_ElecFail_3x_Raw_g",
+        "EA02_VGUW_120Hz_ElecFail_3x_Raw_mms",
+        "EA02_VGUW_GenFreq_ElecFail_1x_Envelope_g",
+        "EA02_VGUW_GenFreq_ElecFail_1x_Raw_g",
+        "EA02_VGUW_GenFreq_ElecFail_1x_Raw_mms",
+        "EA02_VGUW_GenFreq_ElecFail_2x_Envelope_g",
+        "EA02_VGUW_GenFreq_ElecFail_2x_Raw_g",
+        "EA02_VGUW_GenFreq_ElecFail_2x_Raw_mms",
+        "EA02_VGUW_GenFreq_ElecFail_3x_Envelope_g",
+        "EA02_VGUW_GenFreq_ElecFail_3x_Raw_g",
+        "EA02_VGUW_GenFreq_ElecFail_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Eixo gerador - EA02_VGUW",
+      "categoria": "Eixo gerador",
+      "tendencias": [
+        "EA02_VGUW_GenShaft_1x_Raw_g",
+        "EA02_VGUW_GenShaft_1x_Raw_mms",
+        "EA02_VGUW_GenShaft_2x_Raw_g",
+        "EA02_VGUW_GenShaft_2x_Raw_mms",
+        "EA02_VGUW_GenShaft_3x_Raw_g",
+        "EA02_VGUW_GenShaft_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Rolamento gerador - EA02_VGUW",
+      "categoria": "Rolamento gerador",
+      "tendencias": [
+        "EA02_VGUW_Gen_UW_BPFI_Envelope_g",
+        "EA02_VGUW_Gen_UW_BPFI_Raw_g",
+        "EA02_VGUW_Gen_UW_BPFO_Envelope_g",
+        "EA02_VGUW_Gen_UW_BPFO_Raw_g",
+        "EA02_VGUW_Gen_UW_BSF_Envelope_g",
+        "EA02_VGUW_Gen_UW_BSF_Raw_g",
+        "EA02_VGUW_Gen_UW_FTF_Envelope_g",
+        "EA02_VGUW_Gen_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Engrenamento HSS-IMS - EA03_VHSS-R",
+      "categoria": "Engrenamento HSS-IMS",
+      "tendencias": [
+        "EA03_VHSS-R_GMF_IMS-HSS_1x_Raw_g",
+        "EA03_VHSS-R_GMF_IMS-HSS_1x_Raw_mms",
+        "EA03_VHSS-R_GMF_IMS-HSS_2x_Raw_g",
+        "EA03_VHSS-R_GMF_IMS-HSS_2x_Raw_mms",
+        "EA03_VHSS-R_GMF_IMS-HSS_3x_Raw_g",
+        "EA03_VHSS-R_GMF_IMS-HSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "HSS - EA03_VHSS-R",
+      "categoria": "HSS",
+      "tendencias": [
+        "EA03_VHSS-R_HSS_1x_Raw_g",
+        "EA03_VHSS-R_HSS_1x_Raw_mms",
+        "EA03_VHSS-R_HSS_2x_Raw_g",
+        "EA03_VHSS-R_HSS_2x_Raw_mms",
+        "EA03_VHSS-R_HSS_3x_Raw_g",
+        "EA03_VHSS-R_HSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Rolamento HSS - EA03_VHSS-R",
+      "categoria": "Rolamento HSS",
+      "tendencias": [
+        "EA03_VHSS-R_HSS_DW_DW_BPFI_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_DW_BPFI_Raw_g",
+        "EA03_VHSS-R_HSS_DW_DW_BPFO_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_DW_BPFO_Raw_g",
+        "EA03_VHSS-R_HSS_DW_DW_BSF_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_DW_BSF_Raw_g",
+        "EA03_VHSS-R_HSS_DW_DW_FTF_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_DW_FTF_Raw_g",
+        "EA03_VHSS-R_HSS_DW_UW_BPFI_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_UW_BPFI_Raw_g",
+        "EA03_VHSS-R_HSS_DW_UW_BPFO_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_UW_BPFO_Raw_g",
+        "EA03_VHSS-R_HSS_DW_UW_BSF_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_UW_BSF_Raw_g",
+        "EA03_VHSS-R_HSS_DW_UW_FTF_Envelope_g",
+        "EA03_VHSS-R_HSS_DW_UW_FTF_Raw_g",
+        "EA03_VHSS-R_HSS_UW_BPFI_Envelope_g",
+        "EA03_VHSS-R_HSS_UW_BPFI_Raw_g",
+        "EA03_VHSS-R_HSS_UW_BPFO_Envelope_g",
+        "EA03_VHSS-R_HSS_UW_BPFO_Raw_g",
+        "EA03_VHSS-R_HSS_UW_BSF_Envelope_g",
+        "EA03_VHSS-R_HSS_UW_BSF_Raw_g",
+        "EA03_VHSS-R_HSS_UW_FTF_Envelope_g",
+        "EA03_VHSS-R_HSS_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Engrenamento HSS-IMS - EA04_VHSS-A",
+      "categoria": "Engrenamento HSS-IMS",
+      "tendencias": [
+        "EA04_VHSS-A_GMF_IMS-HSS_1x_Raw_g",
+        "EA04_VHSS-A_GMF_IMS-HSS_1x_Raw_mms",
+        "EA04_VHSS-A_GMF_IMS-HSS_2x_Raw_g",
+        "EA04_VHSS-A_GMF_IMS-HSS_2x_Raw_mms",
+        "EA04_VHSS-A_GMF_IMS-HSS_3x_Raw_g",
+        "EA04_VHSS-A_GMF_IMS-HSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "HSS - EA04_VHSS-A",
+      "categoria": "HSS",
+      "tendencias": [
+        "EA04_VHSS-A_HSS_1x_Raw_g",
+        "EA04_VHSS-A_HSS_1x_Raw_mms",
+        "EA04_VHSS-A_HSS_2x_Raw_g",
+        "EA04_VHSS-A_HSS_2x_Raw_mms",
+        "EA04_VHSS-A_HSS_3x_Raw_g",
+        "EA04_VHSS-A_HSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Rolamento HSS - EA04_VHSS-A",
+      "categoria": "Rolamento HSS",
+      "tendencias": [
+        "EA04_VHSS-A_HSS_DW_DW_BPFI_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_DW_BPFI_Raw_g",
+        "EA04_VHSS-A_HSS_DW_DW_BPFO_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_DW_BPFO_Raw_g",
+        "EA04_VHSS-A_HSS_DW_DW_BSF_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_DW_BSF_Raw_g",
+        "EA04_VHSS-A_HSS_DW_DW_FTF_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_DW_FTF_Raw_g",
+        "EA04_VHSS-A_HSS_DW_UW_BPFI_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_UW_BPFI_Raw_g",
+        "EA04_VHSS-A_HSS_DW_UW_BPFO_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_UW_BPFO_Raw_g",
+        "EA04_VHSS-A_HSS_DW_UW_BSF_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_UW_BSF_Raw_g",
+        "EA04_VHSS-A_HSS_DW_UW_FTF_Envelope_g",
+        "EA04_VHSS-A_HSS_DW_UW_FTF_Raw_g",
+        "EA04_VHSS-A_HSS_UW_BPFI_Envelope_g",
+        "EA04_VHSS-A_HSS_UW_BPFI_Raw_g",
+        "EA04_VHSS-A_HSS_UW_BPFO_Envelope_g",
+        "EA04_VHSS-A_HSS_UW_BPFO_Raw_g",
+        "EA04_VHSS-A_HSS_UW_BSF_Envelope_g",
+        "EA04_VHSS-A_HSS_UW_BSF_Raw_g",
+        "EA04_VHSS-A_HSS_UW_FTF_Envelope_g",
+        "EA04_VHSS-A_HSS_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Engrenamento HSS-IMS - EA05_VIMS",
+      "categoria": "Engrenamento HSS-IMS",
+      "tendencias": [
+        "EA05_VIMS_GMF_IMS-HSS_1x_Raw_g",
+        "EA05_VIMS_GMF_IMS-HSS_1x_Raw_mms",
+        "EA05_VIMS_GMF_IMS-HSS_2x_Raw_g",
+        "EA05_VIMS_GMF_IMS-HSS_2x_Raw_mms",
+        "EA05_VIMS_GMF_IMS-HSS_3x_Raw_g",
+        "EA05_VIMS_GMF_IMS-HSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Engrenamento IMS-LSS - EA05_VIMS",
+      "categoria": "Engrenamento IMS-LSS",
+      "tendencias": [
+        "EA05_VIMS_GMF_LSS-IMS_1x_Raw_g",
+        "EA05_VIMS_GMF_LSS-IMS_1x_Raw_mms",
+        "EA05_VIMS_GMF_LSS-IMS_2x_Raw_g",
+        "EA05_VIMS_GMF_LSS-IMS_2x_Raw_mms",
+        "EA05_VIMS_GMF_LSS-IMS_3x_Raw_g",
+        "EA05_VIMS_GMF_LSS-IMS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Rolamento HSS - EA05_VIMS",
+      "categoria": "Rolamento HSS",
+      "tendencias": [
+        "EA05_VIMS_HSS_DW_DW_BPFI_Envelope_g",
+        "EA05_VIMS_HSS_DW_DW_BPFI_Raw_g",
+        "EA05_VIMS_HSS_DW_DW_BPFO_Envelope_g",
+        "EA05_VIMS_HSS_DW_DW_BPFO_Raw_g",
+        "EA05_VIMS_HSS_DW_DW_BSF_Envelope_g",
+        "EA05_VIMS_HSS_DW_DW_BSF_Raw_g",
+        "EA05_VIMS_HSS_DW_DW_FTF_Envelope_g",
+        "EA05_VIMS_HSS_DW_DW_FTF_Raw_g",
+        "EA05_VIMS_HSS_DW_UW_BPFI_Envelope_g",
+        "EA05_VIMS_HSS_DW_UW_BPFI_Raw_g",
+        "EA05_VIMS_HSS_DW_UW_BPFO_Envelope_g",
+        "EA05_VIMS_HSS_DW_UW_BPFO_Raw_g",
+        "EA05_VIMS_HSS_DW_UW_BSF_Envelope_g",
+        "EA05_VIMS_HSS_DW_UW_BSF_Raw_g",
+        "EA05_VIMS_HSS_DW_UW_FTF_Envelope_g",
+        "EA05_VIMS_HSS_DW_UW_FTF_Raw_g",
+        "EA05_VIMS_HSS_UW_BPFI_Envelope_g",
+        "EA05_VIMS_HSS_UW_BPFI_Raw_g",
+        "EA05_VIMS_HSS_UW_BPFO_Envelope_g",
+        "EA05_VIMS_HSS_UW_BPFO_Raw_g",
+        "EA05_VIMS_HSS_UW_BSF_Envelope_g",
+        "EA05_VIMS_HSS_UW_BSF_Raw_g",
+        "EA05_VIMS_HSS_UW_FTF_Envelope_g",
+        "EA05_VIMS_HSS_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "IMS - EA05_VIMS",
+      "categoria": "IMS",
+      "tendencias": [
+        "EA05_VIMS_IMS_1x_Raw_g",
+        "EA05_VIMS_IMS_1x_Raw_mms",
+        "EA05_VIMS_IMS_2x_Raw_g",
+        "EA05_VIMS_IMS_2x_Raw_mms",
+        "EA05_VIMS_IMS_3x_Raw_g",
+        "EA05_VIMS_IMS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Rolamento IMS - EA05_VIMS",
+      "categoria": "Rolamento IMS",
+      "tendencias": [
+        "EA05_VIMS_IMS_DW_DW_BPFI_Envelope_g",
+        "EA05_VIMS_IMS_DW_DW_BPFI_Raw_g",
+        "EA05_VIMS_IMS_DW_DW_BPFO_Envelope_g",
+        "EA05_VIMS_IMS_DW_DW_BPFO_Raw_g",
+        "EA05_VIMS_IMS_DW_DW_BSF_Envelope_g",
+        "EA05_VIMS_IMS_DW_DW_BSF_Raw_g",
+        "EA05_VIMS_IMS_DW_DW_FTF_Envelope_g",
+        "EA05_VIMS_IMS_DW_DW_FTF_Raw_g",
+        "EA05_VIMS_IMS_DW_UW_BPFI_Envelope_g",
+        "EA05_VIMS_IMS_DW_UW_BPFI_Raw_g",
+        "EA05_VIMS_IMS_DW_UW_BPFO_Envelope_g",
+        "EA05_VIMS_IMS_DW_UW_BPFO_Raw_g",
+        "EA05_VIMS_IMS_DW_UW_BSF_Envelope_g",
+        "EA05_VIMS_IMS_DW_UW_BSF_Raw_g",
+        "EA05_VIMS_IMS_DW_UW_FTF_Envelope_g",
+        "EA05_VIMS_IMS_DW_UW_FTF_Raw_g",
+        "EA05_VIMS_IMS_UW_BPFI_Envelope_g",
+        "EA05_VIMS_IMS_UW_BPFI_Raw_g",
+        "EA05_VIMS_IMS_UW_BPFO_Envelope_g",
+        "EA05_VIMS_IMS_UW_BPFO_Raw_g",
+        "EA05_VIMS_IMS_UW_BSF_Envelope_g",
+        "EA05_VIMS_IMS_UW_BSF_Raw_g",
+        "EA05_VIMS_IMS_UW_FTF_Envelope_g",
+        "EA05_VIMS_IMS_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Engrenamento IMS-LSS - EA06_VLSS",
+      "categoria": "Engrenamento IMS-LSS",
+      "tendencias": [
+        "EA06_VLSS_GMF_LSS-IMS_1x_Raw_g",
+        "EA06_VLSS_GMF_LSS-IMS_1x_Raw_mms",
+        "EA06_VLSS_GMF_LSS-IMS_2x_Raw_g",
+        "EA06_VLSS_GMF_LSS-IMS_2x_Raw_mms",
+        "EA06_VLSS_GMF_LSS-IMS_3x_Raw_g",
+        "EA06_VLSS_GMF_LSS-IMS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Engrenamento plan - EA06_VLSS",
+      "categoria": "Engrenamento plan",
+      "tendencias": [
+        "EA06_VLSS_GMF_PLAN_1x_Raw_g",
+        "EA06_VLSS_GMF_PLAN_1x_Raw_mms",
+        "EA06_VLSS_GMF_PLAN_2x_Raw_g",
+        "EA06_VLSS_GMF_PLAN_2x_Raw_mms",
+        "EA06_VLSS_GMF_PLAN_3x_Raw_g",
+        "EA06_VLSS_GMF_PLAN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "LSS - EA06_VLSS",
+      "categoria": "LSS",
+      "tendencias": [
+        "EA06_VLSS_LSS_1x_Raw_g",
+        "EA06_VLSS_LSS_1x_Raw_mms",
+        "EA06_VLSS_LSS_2x_Raw_g",
+        "EA06_VLSS_LSS_2x_Raw_mms",
+        "EA06_VLSS_LSS_3x_Raw_g",
+        "EA06_VLSS_LSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Rolamento LSS - EA06_VLSS",
+      "categoria": "Rolamento LSS",
+      "tendencias": [
+        "EA06_VLSS_LSS_DW_DW_BPFI_Envelope_g",
+        "EA06_VLSS_LSS_DW_DW_BPFI_Raw_g",
+        "EA06_VLSS_LSS_DW_DW_BPFO_Envelope_g",
+        "EA06_VLSS_LSS_DW_DW_BPFO_Raw_g",
+        "EA06_VLSS_LSS_DW_DW_BSF_Envelope_g",
+        "EA06_VLSS_LSS_DW_DW_BSF_Raw_g",
+        "EA06_VLSS_LSS_DW_DW_FTF_Envelope_g",
+        "EA06_VLSS_LSS_DW_DW_FTF_Raw_g",
+        "EA06_VLSS_LSS_DW_UW_BPFI_Envelope_g",
+        "EA06_VLSS_LSS_DW_UW_BPFI_Raw_g",
+        "EA06_VLSS_LSS_DW_UW_BPFO_Envelope_g",
+        "EA06_VLSS_LSS_DW_UW_BPFO_Raw_g",
+        "EA06_VLSS_LSS_DW_UW_BSF_Envelope_g",
+        "EA06_VLSS_LSS_DW_UW_BSF_Raw_g",
+        "EA06_VLSS_LSS_DW_UW_FTF_Envelope_g",
+        "EA06_VLSS_LSS_DW_UW_FTF_Raw_g",
+        "EA06_VLSS_LSS_UW_BPFI_Envelope_g",
+        "EA06_VLSS_LSS_UW_BPFI_Raw_g",
+        "EA06_VLSS_LSS_UW_BPFO_Envelope_g",
+        "EA06_VLSS_LSS_UW_BPFO_Raw_g",
+        "EA06_VLSS_LSS_UW_BSF_Envelope_g",
+        "EA06_VLSS_LSS_UW_BSF_Raw_g",
+        "EA06_VLSS_LSS_UW_FTF_Envelope_g",
+        "EA06_VLSS_LSS_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Engrenamento plan - EA07_VP-0",
+      "categoria": "Engrenamento plan",
+      "tendencias": [
+        "EA07_VP-0_GMF_PLAN_1x_Raw_g",
+        "EA07_VP-0_GMF_PLAN_1x_Raw_mms",
+        "EA07_VP-0_GMF_PLAN_2x_Raw_g",
+        "EA07_VP-0_GMF_PLAN_2x_Raw_mms",
+        "EA07_VP-0_GMF_PLAN_3x_Raw_g",
+        "EA07_VP-0_GMF_PLAN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "LSS - EA07_VP-0",
+      "categoria": "LSS",
+      "tendencias": [
+        "EA07_VP-0_LSS_1x_Raw_g",
+        "EA07_VP-0_LSS_1x_Raw_mms",
+        "EA07_VP-0_LSS_2x_Raw_g",
+        "EA07_VP-0_LSS_2x_Raw_mms",
+        "EA07_VP-0_LSS_3x_Raw_g",
+        "EA07_VP-0_LSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Planeta - EA07_VP-0",
+      "categoria": "Planeta",
+      "tendencias": [
+        "EA07_VP-0_PLAN_1x_Raw_g",
+        "EA07_VP-0_PLAN_1x_Raw_mms",
+        "EA07_VP-0_PLAN_2x_Raw_g",
+        "EA07_VP-0_PLAN_2x_Raw_mms",
+        "EA07_VP-0_PLAN_3x_Raw_g",
+        "EA07_VP-0_PLAN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Rolamento plan cage - EA07_VP-0",
+      "categoria": "Rolamento plan cage",
+      "tendencias": [
+        "EA07_VP-0_PlanCage_DW_BPFI_Envelope_g",
+        "EA07_VP-0_PlanCage_DW_BPFI_Raw_g",
+        "EA07_VP-0_PlanCage_DW_BPFO_Envelope_g",
+        "EA07_VP-0_PlanCage_DW_BPFO_Raw_g",
+        "EA07_VP-0_PlanCage_DW_BSF_Envelope_g",
+        "EA07_VP-0_PlanCage_DW_BSF_Raw_g",
+        "EA07_VP-0_PlanCage_DW_FTF_Envelope_g",
+        "EA07_VP-0_PlanCage_DW_FTF_Raw_g",
+        "EA07_VP-0_PlanCage_UW_BPFI_Envelope_g",
+        "EA07_VP-0_PlanCage_UW_BPFI_Raw_g",
+        "EA07_VP-0_PlanCage_UW_BPFO_Envelope_g",
+        "EA07_VP-0_PlanCage_UW_BPFO_Raw_g",
+        "EA07_VP-0_PlanCage_UW_BSF_Envelope_g",
+        "EA07_VP-0_PlanCage_UW_BSF_Raw_g",
+        "EA07_VP-0_PlanCage_UW_FTF_Envelope_g",
+        "EA07_VP-0_PlanCage_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Defeito planeta - EA07_VP-0",
+      "categoria": "Defeito planeta",
+      "tendencias": [
+        "EA07_VP-0_Plan_DEF_Envelope_g",
+        "EA07_VP-0_Plan_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Rolamento planeta - EA07_VP-0",
+      "categoria": "Rolamento planeta",
+      "tendencias": [
+        "EA07_VP-0_Plan_UW_BPFI_Envelope_g",
+        "EA07_VP-0_Plan_UW_BPFI_Raw_g",
+        "EA07_VP-0_Plan_UW_BPFO_Envelope_g",
+        "EA07_VP-0_Plan_UW_BPFO_Raw_g",
+        "EA07_VP-0_Plan_UW_BSF_Envelope_g",
+        "EA07_VP-0_Plan_UW_BSF_Raw_g",
+        "EA07_VP-0_Plan_UW_FTF_Envelope_g",
+        "EA07_VP-0_Plan_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Defeito anel - EA07_VP-0",
+      "categoria": "Defeito anel",
+      "tendencias": [
+        "EA07_VP-0_Ring_DEF_Envelope_g",
+        "EA07_VP-0_Ring_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Defeito sol - EA07_VP-0",
+      "categoria": "Defeito sol",
+      "tendencias": [
+        "EA07_VP-0_Sun_DEF_Envelope_g",
+        "EA07_VP-0_Sun_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Engrenamento plan - EA08_VP-90",
+      "categoria": "Engrenamento plan",
+      "tendencias": [
+        "EA08_VP-90_GMF_PLAN_1x_Raw_g",
+        "EA08_VP-90_GMF_PLAN_1x_Raw_mms",
+        "EA08_VP-90_GMF_PLAN_2x_Raw_g",
+        "EA08_VP-90_GMF_PLAN_2x_Raw_mms",
+        "EA08_VP-90_GMF_PLAN_3x_Raw_g",
+        "EA08_VP-90_GMF_PLAN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "LSS - EA08_VP-90",
+      "categoria": "LSS",
+      "tendencias": [
+        "EA08_VP-90_LSS_1x_Raw_g",
+        "EA08_VP-90_LSS_1x_Raw_mms",
+        "EA08_VP-90_LSS_2x_Raw_g",
+        "EA08_VP-90_LSS_2x_Raw_mms",
+        "EA08_VP-90_LSS_3x_Raw_g",
+        "EA08_VP-90_LSS_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 32,
+      "nome": "Planeta - EA08_VP-90",
+      "categoria": "Planeta",
+      "tendencias": [
+        "EA08_VP-90_PLAN_1x_Raw_g",
+        "EA08_VP-90_PLAN_1x_Raw_mms",
+        "EA08_VP-90_PLAN_2x_Raw_g",
+        "EA08_VP-90_PLAN_2x_Raw_mms",
+        "EA08_VP-90_PLAN_3x_Raw_g",
+        "EA08_VP-90_PLAN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 33,
+      "nome": "Rolamento plan cage - EA08_VP-90",
+      "categoria": "Rolamento plan cage",
+      "tendencias": [
+        "EA08_VP-90_PlanCage_DW_BPFI_Envelope_g",
+        "EA08_VP-90_PlanCage_DW_BPFI_Raw_g",
+        "EA08_VP-90_PlanCage_DW_BPFO_Envelope_g",
+        "EA08_VP-90_PlanCage_DW_BPFO_Raw_g",
+        "EA08_VP-90_PlanCage_DW_BSF_Envelope_g",
+        "EA08_VP-90_PlanCage_DW_BSF_Raw_g",
+        "EA08_VP-90_PlanCage_DW_FTF_Envelope_g",
+        "EA08_VP-90_PlanCage_DW_FTF_Raw_g",
+        "EA08_VP-90_PlanCage_UW_BPFI_Envelope_g",
+        "EA08_VP-90_PlanCage_UW_BPFI_Raw_g",
+        "EA08_VP-90_PlanCage_UW_BPFO_Envelope_g",
+        "EA08_VP-90_PlanCage_UW_BPFO_Raw_g",
+        "EA08_VP-90_PlanCage_UW_BSF_Envelope_g",
+        "EA08_VP-90_PlanCage_UW_BSF_Raw_g",
+        "EA08_VP-90_PlanCage_UW_FTF_Envelope_g",
+        "EA08_VP-90_PlanCage_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 34,
+      "nome": "Defeito planeta - EA08_VP-90",
+      "categoria": "Defeito planeta",
+      "tendencias": [
+        "EA08_VP-90_Plan_DEF_Envelope_g",
+        "EA08_VP-90_Plan_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 35,
+      "nome": "Rolamento planeta - EA08_VP-90",
+      "categoria": "Rolamento planeta",
+      "tendencias": [
+        "EA08_VP-90_Plan_UW_BPFI_Envelope_g",
+        "EA08_VP-90_Plan_UW_BPFI_Raw_g",
+        "EA08_VP-90_Plan_UW_BPFO_Envelope_g",
+        "EA08_VP-90_Plan_UW_BPFO_Raw_g",
+        "EA08_VP-90_Plan_UW_BSF_Envelope_g",
+        "EA08_VP-90_Plan_UW_BSF_Raw_g",
+        "EA08_VP-90_Plan_UW_FTF_Envelope_g",
+        "EA08_VP-90_Plan_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 36,
+      "nome": "Defeito anel - EA08_VP-90",
+      "categoria": "Defeito anel",
+      "tendencias": [
+        "EA08_VP-90_Ring_DEF_Envelope_g",
+        "EA08_VP-90_Ring_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 37,
+      "nome": "Defeito sol - EA08_VP-90",
+      "categoria": "Defeito sol",
+      "tendencias": [
+        "EA08_VP-90_Sun_DEF_Envelope_g",
+        "EA08_VP-90_Sun_DEF_Envelope_mms"
+      ]
+    },
+    {
+      "id": 38,
+      "nome": "Eixo principal DW - EA09_VMP-DW-R",
+      "categoria": "Eixo principal DW",
+      "tendencias": [
+        "EA09_VMP-DW-R_MAIN_1x_Raw_g",
+        "EA09_VMP-DW-R_MAIN_1x_Raw_mms",
+        "EA09_VMP-DW-R_MAIN_2x_Raw_g",
+        "EA09_VMP-DW-R_MAIN_2x_Raw_mms",
+        "EA09_VMP-DW-R_MAIN_3x_Raw_g",
+        "EA09_VMP-DW-R_MAIN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 39,
+      "nome": "Rolamento principal DW - EA09_VMP-DW-R",
+      "categoria": "Rolamento principal DW",
+      "tendencias": [
+        "EA09_VMP-DW-R_MAIN_DW_BPFI_Envelope_g",
+        "EA09_VMP-DW-R_MAIN_DW_BPFI_Raw_g",
+        "EA09_VMP-DW-R_MAIN_DW_BPFO_Envelope_g",
+        "EA09_VMP-DW-R_MAIN_DW_BPFO_Raw_g",
+        "EA09_VMP-DW-R_MAIN_DW_BSF_Envelope_g",
+        "EA09_VMP-DW-R_MAIN_DW_BSF_Raw_g",
+        "EA09_VMP-DW-R_MAIN_DW_FTF_Envelope_g",
+        "EA09_VMP-DW-R_MAIN_DW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 40,
+      "nome": "Eixo principal UW - EA10_VMP-UW-R",
+      "categoria": "Eixo principal UW",
+      "tendencias": [
+        "EA10_VMP-UW-R_MAIN_1x_Raw_g",
+        "EA10_VMP-UW-R_MAIN_1x_Raw_mms",
+        "EA10_VMP-UW-R_MAIN_2x_Raw_g",
+        "EA10_VMP-UW-R_MAIN_2x_Raw_mms",
+        "EA10_VMP-UW-R_MAIN_3x_Raw_g",
+        "EA10_VMP-UW-R_MAIN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 41,
+      "nome": "Rolamento principal UW - EA10_VMP-UW-R",
+      "categoria": "Rolamento principal UW",
+      "tendencias": [
+        "EA10_VMP-UW-R_MAIN_UW_BPFI_Envelope_g",
+        "EA10_VMP-UW-R_MAIN_UW_BPFI_Raw_g",
+        "EA10_VMP-UW-R_MAIN_UW_BPFO_Envelope_g",
+        "EA10_VMP-UW-R_MAIN_UW_BPFO_Raw_g",
+        "EA10_VMP-UW-R_MAIN_UW_BSF_Envelope_g",
+        "EA10_VMP-UW-R_MAIN_UW_BSF_Raw_g",
+        "EA10_VMP-UW-R_MAIN_UW_FTF_Envelope_g",
+        "EA10_VMP-UW-R_MAIN_UW_FTF_Raw_g"
+      ]
+    },
+    {
+      "id": 42,
+      "nome": "Eixo principal UW - EA11_VMP-UW-A",
+      "categoria": "Eixo principal UW",
+      "tendencias": [
+        "EA11_VMP-UW-A_MAIN_1x_Raw_g",
+        "EA11_VMP-UW-A_MAIN_1x_Raw_mms",
+        "EA11_VMP-UW-A_MAIN_2x_Raw_g",
+        "EA11_VMP-UW-A_MAIN_2x_Raw_mms",
+        "EA11_VMP-UW-A_MAIN_3x_Raw_g",
+        "EA11_VMP-UW-A_MAIN_3x_Raw_mms"
+      ]
+    },
+    {
+      "id": 43,
+      "nome": "Rolamento principal UW - EA11_VMP-UW-A",
+      "categoria": "Rolamento principal UW",
+      "tendencias": [
+        "EA11_VMP-UW-A_MAIN_UW_BPFI_Envelope_g",
+        "EA11_VMP-UW-A_MAIN_UW_BPFI_Raw_g",
+        "EA11_VMP-UW-A_MAIN_UW_BPFO_Envelope_g",
+        "EA11_VMP-UW-A_MAIN_UW_BPFO_Raw_g",
+        "EA11_VMP-UW-A_MAIN_UW_BSF_Envelope_g",
+        "EA11_VMP-UW-A_MAIN_UW_BSF_Raw_g",
+        "EA11_VMP-UW-A_MAIN_UW_FTF_Envelope_g",
+        "EA11_VMP-UW-A_MAIN_UW_FTF_Raw_g"
+      ]
+    }
+  ],
+  "total_grupos": 43,
+  "total_tendencias": 340
+}
